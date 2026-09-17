@@ -47,14 +47,42 @@ for i in range(60):
        
     square(200) """
 
-import turtle
+""" import turtle
 from turtle import *
 t = Turtle()
 
-def doubleSquares(iRange):
-    length = 25
-    for i in range(iRange):
-        doubleSquares(length, 90)
-        length = length * 2
-doubleSquares(5)
+t.shape("turtle")
 
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+def addSquares(iRange):
+    length = 5
+    for i in range(iRange):
+        square(length, 90)
+        length += 5
+        t.right(5)
+addSquares(60)
+
+turtle.done() """
+
+""" import turtle
+from turtle import *
+t = Turtle()
+
+t.shape("turtle")
+
+def shape(x,y):
+    for i in range(5):
+        t.forward(x)
+        t.left(y)
+def addshape(iRange):
+    length = 5
+    for i in range(iRange):
+        shape(length, 144)
+        length += 5
+        t.right(5)
+addshape(60)
+
+turtle.done() """
