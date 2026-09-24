@@ -67,7 +67,7 @@ addSquares(60)
 
 turtle.done() """
 
-""" import turtle
+import turtle
 from turtle import *
 t = Turtle()
 
@@ -85,4 +85,4 @@ def addshape(iRange):
         t.right(5)
 addshape(60)
 
-turtle.done() """
+turtle.done() 
